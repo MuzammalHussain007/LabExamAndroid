@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:padding="50dp"
+        tools:context=".MainActivity">
+        <EditText
+            android:id="@+id/emailhere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:hint="Email Here"
+            android:inputType="textWebEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordhere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailhere"
+            android:layout_marginTop="30px"
+            android:hint="Password Here"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/authhere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordhere"
+            android:layout_marginTop="30px"
+            android:onClick="AuthUsingPhone"
+            android:text="Authenticate UsingPhone"
+            android:textSize="15dp"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/authhere"
+            android:layout_marginTop="20px"
+            android:text="Normal SignIn"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fblogin"
+            android:layout_marginTop="20px"
+            android:onClick="normalLogin"
+            android:text="Login"
+            android:textAllCaps="false" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fblogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GoogleSignIn"
+            android:layout_marginTop="30px" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/GoogleSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signIn"
+            android:layout_marginTop="30px" />
+
+
+    </RelativeLayout>
+</ScrollView>

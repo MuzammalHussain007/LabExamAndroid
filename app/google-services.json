@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "676789248466",
+    "firebase_url": "https://fir-tatorial-b1a07.firebaseio.com",
+    "project_id": "fir-tatorial-b1a07",
+    "storage_bucket": "fir-tatorial-b1a07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676789248466:android:69551e9adf5261f58da80b",
+        "android_client_info": {
+          "package_name": "com.example.firebasetatorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676789248466-salf9bp7vppf9c4sn1obi5g1pl591qep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl56TcfdmtKk2NmMDSAT9WiAvlkmBi16I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676789248466-salf9bp7vppf9c4sn1obi5g1pl591qep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676789248466:android:80c6ada3eccec9538da80b",
+        "android_client_info": {
+          "package_name": "com.example.labexamandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676789248466-salf9bp7vppf9c4sn1obi5g1pl591qep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl56TcfdmtKk2NmMDSAT9WiAvlkmBi16I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676789248466-salf9bp7vppf9c4sn1obi5g1pl591qep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
